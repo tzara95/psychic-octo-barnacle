@@ -299,7 +299,7 @@ html
 
 /* adaptive */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
     .container {
         padding-left: 32px;
@@ -360,4 +360,4 @@ html
         padding-left: 124px;
     }
 
-}
+} */
