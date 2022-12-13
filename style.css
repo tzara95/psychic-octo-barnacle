@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header{
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+
+.menu_wrap{
+    margin: 34px 113px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading_1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.header_text{
+    color: #1F3F68;
+    padding-right: 100px;
+    opacity: 0.6;
+}
+
+.headcontent_wrap{
+    padding: 100px 113px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head_content{
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header_button{
+    width: 220px;
+    height: 56px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: white;
+}
+
+/* main */
+
+.heading_2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin: 40px 0;
+}
+
+.card_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 430px;
+    height: 490px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+
+.card_img{
+    height: 125px;
+}
+
+.heading_4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.card_text{
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.card_link{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #5A98D0;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+
+.project_text{
+    margin: 0 200px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.demo_wrap{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.demo_heading{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.smart_home{
+    position: relative;
+}
+
+.demo_heading_1{
+    font-size: 32px;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+}
+
+.sparklite, .car-rapetition {
+    position: relative;
+}
+
+.demo_heading_2, .demo_heading_3 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.smart_home, .sparklite, .car-rapetition{
+    border-radius: 10px;
+}
+
+/* footer */
+
+.footer{
+    background: #316099;
+}
+
+.footer_top{
+    padding: 90px 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_heading{
+    max-width: 340px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer_text{
+    max-width: 500px;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.footer_button{
+    width: 240px;
+    height: 60px;
+    border: 0;
+    background: #5A98D0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.footer_list{
+    padding: 60px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: space-around;
+    list-style-type: decimal;
+}
+
+.footer_item{
+    max-width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.rights{
+    padding: 30px 113px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+/* effects */
+
+.heading:hover{
+    text-decoration: underline;
+    cursor: default;
+}
+
+.text:hover{
+    text-decoration: underline;
+    cursor: default;
+}
+
+.card_link:hover{
+    color: #d05ab3;
+}
+
+.card_link:hover::after{
+    content: " >>";
+}
+
+.button:hover{
+    background-color: #2d7fc7;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* adaptive */
+
+@media (max-width: 768px) {
+
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;   
+     }
+
+    .heading_1{
+        font-weight: 300;
+        font-size: 64px;
+        line-height: 74px;
+        letter-spacing: 0.04em;
+    }
+
+    .head_content {
+        background-position: right 150px;
+    }
+
+
+
+     .card-wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        margin-bottom: 32px;
+    }
+
+    .project_text{
+        margin: 0 120px;
+    }
+    
+    
+    .footer{
+        padding-top: 0;
+    }
+
+    .footer_top{
+        padding: 47px 124px;
+    }
+
+    .footer_text{
+        width: 336px;
+    }
+
+    .footer_button{
+        width: 133px;
+        height: 32;
+    }
+
+    .footer_list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 124px;
+    }
+
+    .rights{
+        padding-left: 124px;
+    }
+
+}
